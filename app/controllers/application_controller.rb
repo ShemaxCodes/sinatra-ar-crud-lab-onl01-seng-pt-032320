@@ -47,5 +47,5 @@ class ApplicationController < Sinatra::Base
     @article.save
     redirect "/articles/#{params[:id]}"
   end
-
+binding.pry
 end 
